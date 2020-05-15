@@ -17,7 +17,7 @@ yarn add random-position-in-polygon
 
 ## Usage
 
-`randomPointsOnPolygon(polygon: Feature<(Polygon|MultiPolygon)>): Array<number>`
+`randomPositionInPolygon(polygon: Feature<(Polygon|MultiPolygon)>): Array<number>`
 ### Params
  - `polygon` : geoJson Feature<PolygonMultiPolygon> or geoJson Feature<MultiPolygon>
 ### Params
