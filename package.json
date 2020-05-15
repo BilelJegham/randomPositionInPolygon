@@ -1,6 +1,6 @@
 {
   "name": "random-position-in-polygon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return random position inside geoJson Polygon or MultiPolygon",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "keywords": [
     "random",
+    "point",
+    "polygon",
+    "map",
+    "turfjs",
     "geojson"
   ],
   "author": "BilelJegham",
