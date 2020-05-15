@@ -15,7 +15,7 @@ const booleanPointInPolygon = require('@turf/boolean-point-in-polygon').default;
  *
  */
 function randomPositionInPolygon(polygon) {
-  if(!polygon || !polygon.type || polygon.type !== 'Feature' || ['Polygon','MutliPolygon'].indexOf(polygon.geometry.type) === -1) {
+  if(!polygon || !polygon.type || polygon.type !== 'Feature' || ['Polygon','MultiPolygon'].indexOf(polygon.geometry.type) === -1) {
     throw new Error('param polygon must be a Feature<(Polygon|MultiPolygon)>')
   }
   let  position;
