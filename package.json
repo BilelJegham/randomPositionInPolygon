@@ -1,0 +1,31 @@
+{
+  "name": "random-position-in-polygon",
+  "version": "1.0.0",
+  "description": "Return random position inside geoJson Polygon or MultiPolygon",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilelJegham/randomPositionInPolygon.git"
+  },
+  "keywords": [
+    "random",
+    "geojson"
+  ],
+  "author": "BilelJegham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BilelJegham/randomPositionInPolygon/issues"
+  },
+  "homepage": "https://github.com/BilelJegham/randomPositionInPolygon#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "@turf/boolean-point-in-polygon": "^6.0.1",
+    "@turf/random": "^6.0.2"
+  }
+}
