@@ -6,11 +6,18 @@ on:
       type:
         description: 'Version type'     
         required: true
-        default: 'minor'
-      
+        default: 'patch'
+      name:
+        description: 'name'     
+        required: true
+        default: 'BilelJegham'      
+      email:
+        description: 'Version type'     
+        required: true
+        default: '@gmail.com'
 
 jobs:
-  build:
+  push-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,6 +25,8 @@ jobs:
         with:
           node-version: 12
       - run: |
+          git config --global user.email "${{ github.event.inputs.email }}"
+          git config --global user.name "${{ github.event.inputs.name }}"
           npm version ${{ github.event.inputs.type }}
           git push --follow-tags
       
