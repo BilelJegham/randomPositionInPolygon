@@ -19,7 +19,7 @@ yarn add random-position-in-polygon
 
 `randomPositionInPolygon(polygon: Feature<(Polygon|MultiPolygon)>): Array<number>`
 ### Params
- - `polygon` : geoJson Feature<PolygonMultiPolygon> or geoJson Feature<MultiPolygon>
+ - `polygon` : geoJson `Feature<PolygonMultiPolygon>` or geoJson `Feature<MultiPolygon>`
 ### Params
  - `position` : `{Array<number>}` Position [longitude, latitude]
 
