@@ -1,6 +1,6 @@
 {
   "name": "random-position-in-polygon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Return random position inside geoJson Polygon or MultiPolygon",
   "main": "index.js",
   "scripts": {
