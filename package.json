@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/BilelJegham/randomPositionInPolygon#readme",
   "devDependencies": {
-    "jest": "^28.0.2"
+    "jest": "^29.3.0"
   },
   "dependencies": {
     "@turf/bbox": "^6.3.0",
